@@ -1,6 +1,4 @@
 module Main where
--- import Parser
--- import Text.Megaparsec (parseTest)
 data Var
     = N String
     | Num Int
@@ -30,10 +28,5 @@ myComp = (CompE myval mypoint "my_new_space")
 myline :: Form
 myline = (E (Val [(X 1 (N "n"))]) "myline") -- myline = n 
 
--- test parser
--- testMyParser :: IO ()
--- testMyParser = parseTest parseEquation "y = x ^ 2"
-
 main :: IO ()
--- main = testMyParser
 main = print myline
