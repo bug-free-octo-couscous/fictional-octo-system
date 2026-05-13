@@ -69,7 +69,8 @@ executable fictional-octo-system
     -- Other library packages from which modules are imported.
     build-depends:    base >=4,
                       text,
-                      megaparsec
+                      megaparsec,
+                      parser-combinators
 
     -- Directories containing source files.
     hs-source-dirs:   src
