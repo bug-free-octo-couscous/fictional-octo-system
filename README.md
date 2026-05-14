@@ -1,6 +1,7 @@
 $$
 {aleph_0}^{aleph_0} > aleph_0
 $$
+
 Limit $\mathscr{L}$
 <br>
 that changes relatively
